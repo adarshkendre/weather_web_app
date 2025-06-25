@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # You'll need to replace this with your actual API key
-API_KEY = "4112324bfd37b70dcae954bb3dfec32e"
+API_KEY = ""
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def kelvin_to_celsius(kelvin):
